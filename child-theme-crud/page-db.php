@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Modelo DB
- * The template for displaying all single posts
+ * The template for displaying CRUD
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
@@ -24,6 +24,7 @@ get_header();
 	<div class="entry-content">
 		<?php
 
+		//Change 
 		$con = mysqli_connect('localhost','root','','test_082021_2');
 
 		if($con === false){
